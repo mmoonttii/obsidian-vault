@@ -180,3 +180,55 @@ for (int i = 0; i < rettangoli.length; i++) {
 }
 ```
 Questo codice invece salva in `n` il valore di posizioni inizializzate dell'array
+
+# Lab
+## Ereditarietà
+Abbiamo visto come oggetti e classi hanno attributi e metodi. 
+Per esempio data una classe Studente con attributi `nome`, `cognome`, `eta` e `matricola` e una classe Docente con attributi `nome`, `cognome`, `eta` e `insegnamento`.
+Possiamo riconfigurare queste classi organizzando gli attributi `nome`, `cognome` e `eta` nella classe Persona e rendendo le classi Studente e Docente sottoclassi di Persona, ereditando attributi e metodi comuni
+
+```java
+public class Studente extends Persona {
+	private int matricola; // Come attributi definiamo solamente quelli da aggiungere a Persona
+	
+	public Studente(String nome, Strinf cognome, int eta, int matricola) {
+		super(nome, cognome, eta); // Richiamiamo con super() il costruttore di Persona
+		this.matricola = matricola;
+	}
+...
+```
+Il costruttore `super()` di Persona deve sempre essere la prima chiamata all'interno del costruttore della sottoclasse. Quando il costruttore della superclasse non prende parametri non è necessario esplicitarlo e automaticamente il compilatore aggiunge il costruttore vuoto.
+
+Se gli attributi di Persona sono `private` non ci posso accedere direttamente dalla sottoclasse Studente, dobbiamo quindi utilizzare i metodi getter e setter di Persona che possiamo richiamare con la keyoword `super`.
+```java
+...
+	public String getNome() {
+		return super.getNome();
+	}
+```
+## Override dei metodi
+Abbiamo le due sottoclassi e la superclasse, diciamo override dei metodi, quando dato un metodo della superclasse generico, lo vogliamo specializzare per ciascuna sottoclasse
+
+## Casting
+Si dice **upcasting** l'operazione di salvare in una variabile di tipo della superclasse un oggetto della superclasse
+Ad esempio
+```java
+Persona p = new Docente();
+```
+
+È detta **downcast** l'operazione inversa, ovvero salvare in una sottoclasse un oggetto che era salvato in una variabile della superclasse, di nuovo in una variabile della sottoclass.
+Per fare ciò è necessario esplicitare il cast come in C
+```java
+Docente d = (Docente)p;
+```
+
+Per assicurarsi che il cast sia fattibile si può utilizzare l'operatore `isistanceof` che ci indica se l'oggetto può essere convertito in un riferimento di quel tipo
+Ad esempio
+```java
+if (p instanceof Docente){
+	Docente d = (Docente) p;
+}
+```
+
+> Attenzione: Java determina il metodo da invocare mediante la ricerca dinamica del metodo.
+ Il metodo da invocare è sempre deciso in base al tipo reale dell’oggetto a runtime.

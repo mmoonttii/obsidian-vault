@@ -44,4 +44,17 @@ Modello di rig identifica numero, reklzione e caratteristiche dei livelli, ma no
 ## Modello TCP/IP
 4 livelli, derivato dall'implementazione pratica delle reti. Più snello
 # Esempi di rete
+## Reti X.25
+Garantire affidabilità su reti non ottimali
+Pacchetti di dimensione fissa, ma suddivisione header/dati variabile
 
+## Reti frame relay
+
+## Reti ATM
+Asyncronous Transfer Mode
+
+### Modello di rfiferimento delle reti ATM
+
+## Reti RFID
+Si possono varatterizzare in base alla fonte di energia, in base alla frequenza di lavoro
+Diversi problemi
