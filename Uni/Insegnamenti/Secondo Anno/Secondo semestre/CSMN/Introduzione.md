@@ -1,6 +1,7 @@
 #Uni/Insegnamenti/Secondo_Anno/CSMN 
 ` q!mLn-dC ` : codice e-Learning
 Le lezioni del mercoledì pomeriggio inizieranno alle 15:00 in orario
+Ricevimento: tutti i martedì dalle 11 alle 13 - ufficio Palazzo delle Scienze 2 Piano
 Per passare in ufficio durante le ore di ricevimento non c'è bisogno di prenotare
 
 Tutor Luca Garau

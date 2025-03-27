@@ -3,7 +3,15 @@
 - [[Parte1a]]
 - [[Esercitazione 1]]
 - [[Esercitazione 2]]
+- [[Parte1b]]
+- [[Parte1c]]
+- [[Esercitazione 3]]
+- [[Esercitazione 4]]
 # Parte 2
+- [[Parte2a]]
+- [[Parte2b]]
+- [[Parte2c]]
 # Parte 3
-
-# Esercitazioni
+- [[Parte3a]]
+- [[Parte3b]]
+- [[Parte3c]]

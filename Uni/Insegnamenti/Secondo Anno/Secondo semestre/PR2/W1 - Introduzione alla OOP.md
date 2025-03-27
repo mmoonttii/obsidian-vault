@@ -7,7 +7,6 @@ Tipizzazione
 Paradigmi
 
 ## Cos'è un oggetto
-
 Utilizziamo un linguaggio ad alto livello per poter essere vicini a come pensiamo il problema
 Si utilizza il termine **classe** per indicare il tipo dell'oggetto.
 

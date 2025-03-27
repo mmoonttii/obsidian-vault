@@ -231,4 +231,4 @@ if (p instanceof Docente){
 ```
 
 > Attenzione: Java determina il metodo da invocare mediante la ricerca dinamica del metodo.
- Il metodo da invocare è sempre deciso in base al tipo reale dell’oggetto a runtime.
+	 Il metodo da invocare è sempre deciso in base al tipo reale dell’oggetto a runtime.
