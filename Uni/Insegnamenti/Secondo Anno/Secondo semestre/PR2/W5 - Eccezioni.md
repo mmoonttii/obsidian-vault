@@ -1,3 +1,4 @@
+#Uni/Insegnamenti/Secondo_Anno/PR2 
 # Vantaggi delle eccezioni
 1. Separazione del codice che gestisce l'errore dal codice che implementa le funzionalità del software
 2. Propagazione dell'errore: l'errore può venire gestito in un posto diverso da dove è stato generato
@@ -121,3 +122,60 @@ static String readFirstLineFromFile(String path) throws IOException {
 	}
 }
 ```
+
+# Lab
+## Il metodo `equals()` e il suo override
+- Abbiamo già visto il metodo `toString()` e il suo override
+Il metodo `equals()` permette di fare il confronto diretto tra due oggetti **appartenenti alla stessa classe**: ad esempio per una classe Persona possiamo andare a confrontare nome, cognome ed età.
+
+> Prima di fare l'override l' `equals()` della classe Object confronta l'indirizzo di memoria
+
+`equals()` deve rispettare le proprietà di
+- **riflessività**: `x.equals(x)`
+- **simmetria**: `x.equals(y) => y.equals(x)`
+- **transitività**: `x.equals(y) && y.equals(z) => x.equals(z))`
+- `x.equals(null) == false`
+
+```java
+@Override
+public boolean equals(Object obj){
+	if (this == obj) {
+		return true
+	} else if () {
+	} else if () {
+	}
+	
+	Persona altraPersona = (Persona) obj;
+	
+}
+```
+
+### Override del metodo della superclasse
+
+## Variabili di classe `static`
+`static` è una keyword per metodi e variabili che ci permette di distaccarci dal concetto di istanza di un oggetto e definire variabili che 
+
+### Metodi `static`
+I metodi di classe, o static, sono metodi che non si riferiscono all'istanza di un oggetto in particolare, ma alla classe in generale
+
+## Eccezioni
+Gli errori non sono bug (errori di semantica), ma la gestione delle diverse possibilità che possono accadere
+### Errori checked
+Sono controllati a tempo di compilazione ed è necessario gestirli per compilare con successo.
+>  Generalmente sono errori dovuti a IO: file, stream
+### Errori unchecked
+Non siamo obbligati a gestirli, nonostante sia buona norma
+### `throws`
+Con la clausola `throws` il metodo specifica che può lanciare un'eccezione e stiamo demandando al chiamante il compito di gestire l'eccezione
+### Gestire l'eccezione
+Catturiamo e gestiamo l'eccezione con un `try-catch`.
+Quando viene lanciata un'eccezione, tutte le righe successive non sono eseguite e il runtime salta direttamente al catch che gestisce l'estensione.
+
+I catch lavorano in cascata: ad esempio se abbiamo un catch di un errore molto generico all'inizio, tutti gli errori verranno catturati dalla classe più ampia. È quindi necessario dichiarare i catch dall'errore più particolare a quello più generale.
+
+### `finally`
+Il blocco `finally` viene sempre eseguito dopo un try-catch, sia quando l'esecuzione va a buon fine, che in caso contrario, permettendo 
+
+### Altre eccezione
+Poichè le eccezioni sono calssi, possiamo anche noi definire delle nuove eccezioni
+

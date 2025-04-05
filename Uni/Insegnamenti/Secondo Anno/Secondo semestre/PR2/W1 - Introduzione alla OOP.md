@@ -13,10 +13,6 @@ Si utilizza il termine **classe** per indicare il tipo dell'oggetto.
 Ogni oggetto ha una determinata posizione in memoria.
 
 Il fatto che due oggetti siano dello stesso tipo, non implica che siano uguali, possono avere caratteristiche e valori diversi.
-
-#Uni/Insegnamenti/Secondo_Anno/PR2 
-
-Per ogni classe di oggetti si determina una serie di **attributi** che sono interessanti.
 Ogni oggetto è detto essere una **istanza** di una classe
 Gli attributi che un oggetto può avere sono gli stessi per ogni oggetto della classe: quindi è la classe a determinare quali attributi può avere un oggetto
 

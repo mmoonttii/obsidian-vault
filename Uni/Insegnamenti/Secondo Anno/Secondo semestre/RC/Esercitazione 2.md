@@ -1,4 +1,4 @@
-#Uni/Insegnamenti/Secondo_Anno/RC 
+#Uni/Insegnamenti/Secondo_Anno/RC #Uni/Tutoraggio/RC 
 # Software di Rete
 ### QoS
 Im servizio si dice aggifabile quando: si propone di non perdere mai i dati, richiede eche il ricevente incvvii una conferma, introduce un aumetno del traffico di rete

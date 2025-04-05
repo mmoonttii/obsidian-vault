@@ -62,15 +62,15 @@ Le fibre ottiche possono avere il segnale ripetuto o splittato
 Dato un range di frequenze di luce disponibili, si trasmette solamente in alcune bande, dove l'attenuazione della luce è più bassa
 $\text{attenuazione della luce} = 10 \log_{10} {E_{trasmessa}}/{E_{ricevuta}}$
 
-> 12 domande: 5 risposte possibili, 1 correttta
+> 10 domande: 5 risposte possibili, 1 correttta
 > - Non rispondere -> 0
 > - Rispondere sbagliato -> -0.25
 > - Rispondere corretto -> 0.5
-> 12 giuste -> 6 pt
+> 10 giuste -> 5 pt
 > 3 domande a risposta aperta (definizioni, ragionamenti, spiegare un'architettura): scrivere abbondantemente - Introduzione, entrare nell'argomento, considerazioni personali o integrazioni
-> 2 pt per ciascuna domanda aperta, punteggio negativo se si scrivono cavolate
-> Up to 12/12
-> 08:50 primo turno 09:30 secondo turno
+> 2.5 pt per ciascuna domanda aperta, punteggio negativo se si scrivono cavolate
+> Up to 12.5/12.5
+> 08:45 primo turno 09:20 secondo turno
 
 ## Trasmissione senza fili (senza mezzo condotto)
 Nei  mezzi gia visti, dove l'impulso corre attraverso il mezzo, abbiamo la velocità, ma lo svantaggio di dover posare il mezzo fisico.
@@ -172,3 +172,51 @@ C'è un unico caso dove gli utilizzatori di reti altrui raggiungono le abitazion
 Circuito locale (analogico)
 SGT accetta sia segnale voce che segnale dati
 
+Passaggio analogico-digitale: comporta attenuazione del segnale, rumore
+
+Teorema di Nyquist
+Misurati i bit/secondo su un'armonica, possiamo aumentare le armoniche su un doppuni
+
+Sistema DSL:
+Poichè il doppino è dappertutto si sono utilizzati metodi per ceracre di sfruttare la rete esistente, in oarticolare il problema dell'ultimo miglio: si prova a sfruttare lo stesso doppino per internet e telefonia: sistema DSL
+Poichè un utente medio è più probabile abbia da scaricare che da caricare abbiamo ADSL
+Abbiamo 256 canali da 4 kHz (dimensione canale fonico di base): uno è dedicato alla voce, uno di spazio e 254 per dati
+
+Sistema FTTH:
+Anzichè canali diversi, abbiamo \lambda differenti
+
+Multiplexing
+FDM: ogni canale copre una porzione
+WDM: ogni canale ha uno spettro
+TDM: ogno canale ha uno sp
+
+PCM:
+T1 (USA) 1.544 Mbps; E1 (EU) 2.048 Mbps
+
+Modulazione a codice di impulso differenziale
+
+Multiplexing
+Più T 1 convergono in un T2, tanti convergono in un T3, tanti in un T4
+
+Questo sistema, dove unisco tante comunicazioni che vengono unite e splittate solo a arrivo e destinazione: Plesiocrona
+
+Sincrona: durante il percorso può caricare altre informaizoni, ottimizzadno la matrice
+
+# Principi di commutazione
+ISDN
+Porzione minima di dati digitali 8000 campionamenti a secondo, 8 bit a campionamento = 64 k canale minimo di comunicazione
+Interfacce U, T e S
+
+Canali utilizzati
+B: 64 kbps (voce/dati)
+BRI: base rate interface 2B+D due canali fonici più uno di segnalazione
+
+PRI: 30 canali più due di controllo  30B+D: 2048 Mbps
+
+B-ISDN
+Circuiti virtuali permanenti
+Circuiti virtuali commutati
+
+La trama PCM utilizza time-slot che si ripetono ciclicamente
+
+ISDN invia sempre anche cose vuote, ATM solo quando ha cose da inviare > più efficiente. ISDN è più sicura (effettua controlli)

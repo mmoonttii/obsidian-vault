@@ -1,7 +1,8 @@
 #Uni/Insegnamenti/Secondo_Anno/FPW
+# [[FPW Introduzione]]
 # Creazione di applicazioni web statiche
-0. [[FPW Introduzione]]
-1. [[HyperText Transfer Protocol]]
-2. [[HyperText Markup Language]]
-3. [[Introduzione a Vue.js]]
-4. [[Cascading Style Sheets]]
+- [[HyperText Transfer Protocol]]
+- [[HyperText Markup Language]]
+- [[Introduzione a Vue.js]]
+- [[Cascading Style Sheets]]
+- [[Memorizzare e consultare i dati]]
