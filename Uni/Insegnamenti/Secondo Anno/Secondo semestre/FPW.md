@@ -5,4 +5,6 @@
 - [[HyperText Markup Language]]
 - [[Introduzione a Vue.js]]
 - [[Cascading Style Sheets]]
+# Realizzazione di un applicazione web dinamica 
 - [[Memorizzare e consultare i dati]]
+- [[Linguaggio JavaScript]]

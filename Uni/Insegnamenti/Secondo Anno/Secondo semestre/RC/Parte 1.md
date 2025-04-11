@@ -43,7 +43,7 @@ CAP. 1
 1.9 NO
 Problemi NO
 
-CAP. 2 Il livello fisico
+CAP. 2 Il livello fisico [[Parte1c]]
 2.1 Basi teoriche della comunicazione dati
 2.1.1 Analisi di Fourier
 2.1.2 Segnali a banda limitata

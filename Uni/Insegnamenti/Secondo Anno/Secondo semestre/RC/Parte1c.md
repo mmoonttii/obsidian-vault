@@ -204,6 +204,7 @@ Sincrona: durante il percorso può caricare altre informaizoni, ottimizzadno la 
 
 # Principi di commutazione
 ISDN
+Utilizzo delle linee tradizionali per voce e dati
 Porzione minima di dati digitali 8000 campionamenti a secondo, 8 bit a campionamento = 64 k canale minimo di comunicazione
 Interfacce U, T e S
 
@@ -220,3 +221,24 @@ Circuiti virtuali commutati
 La trama PCM utilizza time-slot che si ripetono ciclicamente
 
 ISDN invia sempre anche cose vuote, ATM solo quando ha cose da inviare > più efficiente. ISDN è più sicura (effettua controlli)
+
+# ESAME
+Turno 1: 8:45 a Palazzo - 9:00 inizia il compito
+Turno 2: 9:25 a Palazzo
+
+- 10 domande a risposta chiusa (5 risposte, 1 corretta) - consiglio di non cambiare in continuazione
+- 3 domande aperte: definizioni, processi, ragionamenti: inquadrare problemi, illustrarlo, conclusioni
+
+Bisogna lasciar scadere il tempo
+
+Turno 1
+Didu
+Ghironi
+Guerrini
+
+Turno 2
+Montalto
+Pala
+Ruiu
+
+Secondo preappello: sabato 10 maggio

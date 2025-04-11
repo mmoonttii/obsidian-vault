@@ -9,6 +9,7 @@
 - [[Esercitazione 4]]
 # Parte 2
 - [[Parte2a]]
+- [[Esercitazione 5]]
 - [[Parte2b]]
 - [[Parte2c]]
 # Parte 3
